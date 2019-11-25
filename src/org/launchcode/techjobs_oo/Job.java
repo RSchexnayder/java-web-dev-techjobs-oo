@@ -96,24 +96,6 @@ public class Job {
         String aPositionType = aJob.getPositionType().toString();
         String aCoreCompetency = aJob.getCoreCompetency().toString();
 
-        if (aName == null){
-            aName = "Data not available";
-        }
-        if (aEmployer == null){
-            aEmployer = "Data not available";
-        }
-        if (aLocation == null){
-            aLocation = "Data not available";
-        }
-        if (aPositionType == null){
-            aPositionType = "Data not available";
-        }
-        if (aCoreCompetency == null){
-            aCoreCompetency = "Data not available";
-        }
-
-
-
         return " \n" + "ID: " + aID + "\nName: " + aName + "\nEmployer: " + aEmployer +"\nLocation: " +
                 aLocation + "\nPosition Type: " + aPositionType + "\nCore Competency: " + aCoreCompetency +"\n ";
     }
